@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+body{
+    background-image: url(assets/bg.png);
+}
+h1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:rgb(90,37,192);
+    font-size:40px;
+    font-family: 'Poppins';
+}
+#img1{
+    margin-left: 20%;
+    width:35%;
+    height:35%;
+
+}
+#img2{
+    width:50px;
+    height:50px;    
+}
+#h3{
+    display:flex;
+    font-size:30px;
+    margin-right:10%;
+    margin-left:2%;
+    padding-bottom: 3%;
+    color:white;
+    
+}
+#play{
+    display:flex;
+    justify-content: end;
+}
+
+.box1,
+.box2{
+    border:3px solid yellow;
+    width:25%;
+    height:400px;
+    
+
+}
+#rock{
+    position:absolute;
+    top:70%;
+    left:16%;
+    width:80px;
+    height:80px;
+    padding:2%;
+}
+#paper{
+    position:absolute;
+    top:70%;
+    left:24%;
+    width:80px;
+    padding:2%;
+    height:80px;
+}
+#scissor{
+    position:absolute;
+    top:70%;
+    left:32%;
+    width:80px;
+    padding:2%;
+    height:80px;
+}
+
+h3{
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    font-size: 25px;
+    color:white;
+}
+.conatiner{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-top: 0%;
+    margin-top: 0%;
+
+}
+.vs{
+    padding:5%;
+    height:500px;
+    padding-top:3%;
+}
+.score{
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:70px;
+}
+.score span{
+    padding:2%;
+    padding-bottom:0px;
+    font-family: 'Poppins';
+}
+#rock-hand ,
+#paper-hand,
+#scissor-hand{
+    display:none;
+    width:100%;
+    height:200px;
+    object-fit: cover;
+    margin-top: 0%;
+    padding:0%
+    
+}
+#comp-image img{
+    width:100%;
+    height:300px;
+    float:center;
+}
+
+#winner .btn{
+    background-color: rgb(233, 233, 104);
+    color:white;
+    font-size:30px;
+    border-radius: 10px;
+    margin-left:44%;
+    padding:1%;
+    display:none;
+    margin-top:20px;
+
+}
+.result{
+    font-size:30px;
+    font-family: sans-serif;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}

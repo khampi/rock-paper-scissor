@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lets Play</title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div class="score">
+            <span id="you">0 </span> -  
+            <span id="comp">0</span>
+        </div>
+        <div class="conatiner">
+        
+        <div class="box1">
+            <h3>You</h3>
+            <div id="you-image">
+                <img src="assets\rock-hand.png" id="rock-hand">
+                <img src="assets\paper-hand.png" id="paper-hand">
+                <img src="assets\scissors-hand.png" id="scissor-hand">
+
+            </div>
+            <div class="imgs" id="imgs">
+                <img src="assets\rock-logo.png" id="rock">
+                <img src="assets\paper-logo.png" id="paper">
+                <img src="assets\scissors-logo.png" id="scissor">
+            </div>
+        </div>
+        <img src="assets\vs.png" class="vs">
+        <div class="box1">
+            <h3>Comp</h3>
+            <div id="comp-image"></div>
+        </div>
+        </div>
+        <div id = "winner">
+            <span id="result" class="result"></span>
+            <button id="playagain" class="btn">Play Again</button>
+        </div>
+        <script src="game.js"></script>
+
+    </body>
+</html>
